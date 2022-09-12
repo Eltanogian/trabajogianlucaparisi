@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.body {
+   background-color: white;
+    width: 100%;
+  
+}
+header {
+    color: wheat;
+    background-color: #2D2A2A;
+    width: 100%;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+ul {
+    color: white;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    width: 40%;
+   margin: auto;
+    padding: 12px;
+}
+.titulo {
+    padding: 3px;
+    background-color: #080808;
+    color: red;
+    text-align: center;
+
+}
+header a {
+    color: red;
+    padding: 45%;
+
+
+}
+.letras {
+    color: #F70D98;
+}
+.imagenes-logo {
+    width: 50px;
+
+    }
+    footer {
+        background-color: black;
+        color: red;
+        text-align: center;
+      
+    
+    }
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F28733 ;
+    border-radius: 2px;
+    transition: transform 0.3s ease-in-out;
+    border: solid 1px rgb(53, 10, 10);
+}
+
+.grid-item:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+    
+
+}
+.grid-container{
+    background-color: wheat;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat( auto-fill, minmax(220px, 150px));
+grid-auto-rows: minmax(120px, auto);
+gap: 15px;
+padding: 20 px;
+    
+    
+}
+.grid-item img{
+    width: 150px;
+}
